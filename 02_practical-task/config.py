@@ -5,15 +5,6 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-# Database configuration
-# DB_CONFIG = {
-#     'user': os.getenv('DB_USER', 'neondb_owner'),
-#     'password': os.getenv('DB_PASSWORD', 'npg_drXw7TY6pHyF'),
-#     'host': os.getenv('DB_HOST', 'localhost'),
-#     'port': os.getenv('DB_PORT', '5432'),
-#     'database': os.getenv('DB_NAME', 'eu_flight_monitor'),
-# }
-
 # Database connection string
 DB_CONNECTION_STRING = "postgresql://neondb_owner:npg_drXw7TY6pHyF@ep-hidden-forest-a5ite52n-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require"
 
