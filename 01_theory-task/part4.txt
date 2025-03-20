@@ -1,0 +1,50 @@
+4. Future API Development
+• Describe how you would design and implement a scalable API to provide flight data across
+Europe on a daily basis.
+• Suggest how you would ensure API security, availability, and reliability
+
+## API Design:
+
+### API Architecture:
+
+- RESTful API with GraphQL option for complex queries
+- Microservices architecture to separate concerns:
+
+- Airport Information Service
+- Flight Status Service
+- Delay Monitoring Service
+- Historical Data Service
+
+
+### Technical Implementation:
+
+- Use API Gateway (like AWS API Gateway or Kong) for routing and rate limiting
+- Implement versioning from day one (e.g., /v1/flights)
+- Design for backward compatibility
+
+
+
+## Security, Availability, and Reliability:
+
+### Security Measures:
+
+- OAuth 2.0 with JWT for authentication
+- Rate limiting to prevent abuse
+- Input validation and parameterized queries
+- Regular security audits and penetration testing
+
+
+### Availability Strategy:
+
+- Multi-region deployment
+- Load balancing across multiple instances
+- Auto-scaling based on traffic patterns
+- Circuit breakers to prevent cascade failures
+
+
+### Reliability Features:
+
+- Comprehensive monitoring with Prometheus and Grafana
+- Detailed logging with ELK stack
+- Automated failover mechanisms
+- Regular disaster recovery testing

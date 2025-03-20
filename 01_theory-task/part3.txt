@@ -1,0 +1,46 @@
+3. Flight Monitoring and Claim Identification
+• Propose a system that monitors flights from European airports and flags delays of more than
+2 hours.
+• Describe the technical approach for real-time monitoring, data updates, and alerts.
+• Suggest how the system can efficiently store and manage large volumes of data.
+
+
+## Technical Approach:
+
+### Real-time Processing Pipeline:
+
+- Use Apache Kafka for real-time data ingestion
+- Implement stream processing with Apache Flink to analyze flight status
+- Deploy a rules engine to identify delays exceeding 2 hours
+
+
+### Monitoring System Architecture:
+
+- Collector Services: Pull data from various sources at configurable intervals
+- Processing Layer: Normalize and validate incoming data
+- Analysis Engine: Apply business rules to identify delays
+- Notification System: Alert when claimable delays are detected
+
+
+### Alert System:
+
+- Implement a multi-tier notification system (critical vs. informational)
+- Create dashboards for operations teams
+- Set up webhooks for integration with claim processing systems
+
+
+
+## Data Management:
+
+### Time-Series Optimization:
+
+- Use specialized time-series databases (like TimescaleDB) for historical flight data
+- Implement hot/warm/cold storage strategies based on data age
+- Apply data compression for historical records
+
+
+### Scaling Strategy:
+
+- Horizontal scaling for collector services
+- Sharding by geographic region or time period
+- Containerization for easy scaling of processing components
