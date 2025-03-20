@@ -1,5 +1,3 @@
--- Create tables for EU Flight Monitor database
-
 -- Airports table
 CREATE TABLE IF NOT EXISTS airports (
     id SERIAL PRIMARY KEY,

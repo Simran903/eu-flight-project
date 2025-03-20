@@ -1,4 +1,3 @@
-"""Module for collecting flight data from various sources."""
 import os
 import sys
 import logging

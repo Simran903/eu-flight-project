@@ -1,4 +1,3 @@
-"""Service for flight data operations."""
 import os
 import sys
 import logging

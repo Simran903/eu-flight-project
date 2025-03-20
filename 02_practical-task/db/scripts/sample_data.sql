@@ -1,5 +1,3 @@
--- Sample data for EU Flight Monitor database
-
 -- Insert German airports
 INSERT INTO airports (name, iata_code, icao_code, country, city, latitude, longitude)
 VALUES 

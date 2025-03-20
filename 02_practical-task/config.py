@@ -1,4 +1,3 @@
-"""Configuration settings for the European Flight Monitor system."""
 import os
 from dotenv import load_dotenv
 

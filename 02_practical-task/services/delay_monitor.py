@@ -1,4 +1,3 @@
-"""Flight delay monitoring service."""
 import os
 import sys
 import logging

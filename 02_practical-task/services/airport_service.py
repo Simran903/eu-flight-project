@@ -1,4 +1,3 @@
-"""Service for airport data operations."""
 import os
 import sys
 import logging

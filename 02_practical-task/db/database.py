@@ -1,4 +1,3 @@
-"""Database connection and management module."""
 import sys
 import os
 import logging

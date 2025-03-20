@@ -1,4 +1,3 @@
-"""Main application entry point for EU Flight Monitor."""
 import os
 import sys
 import logging

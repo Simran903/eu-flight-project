@@ -1,4 +1,3 @@
-"""Integration with aviation data APIs."""
 import requests
 import logging
 import os
