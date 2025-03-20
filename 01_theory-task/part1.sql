@@ -106,5 +106,4 @@ WHERE fd.departure_delay_minutes > 120 OR fd.arrival_delay_minutes > 120;
 -- Partitioning: Partition the Flights and FlightDelays tables by date to improve query performance.
 -- Archiving Strategy: Move historical data to archive tables after a certain period.
 -- Caching Layer: Implement Redis or a similar caching solution for frequently accessed data.
--- Read Replicas: Use read replicas for reporting and analysis to reduce load on the primary database.
 -- Automated Testing: Implement data consistency checks and reconciliation processes.

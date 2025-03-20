@@ -27,7 +27,6 @@ for scraping, ADB data, or third-party APIs like FlightAware.
 
 ### Direct API Integration:
 
-- FlightAware's AeroAPI (comprehensive but costly)
 - AviationStack API (good balance of features and cost)
 - OpenSky Network API (free but limited)
 
@@ -37,12 +36,6 @@ for scraping, ADB data, or third-party APIs like FlightAware.
 - Use GPT-4 with Function Calling to extract structured data from airport websites
 - Create custom scrapers for major airports' websites
 - Implement a queue system to manage scraping requests
-
-
-### ADS-B Data:
-
-- Set up or connect to existing ADS-B receivers across Europe
-- Use services like ADSBexchange or FlightRadar24 for broader coverage
 
 
 
